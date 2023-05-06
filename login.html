@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetics Log-in</title>
+    <link rel="stylesheet" href="/styles/login.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <i class="fa-solid fa-arrow-left-long fa-custom" id="btn" style="color: #121212; font-size: 1.3rem;"></i>
+            <img src="/assests/fsaf.png" alt="company-logo" class="header-logo" />
+        </div>
+        <div class="sign-in-card">
+            <h1 class="header-heading">Sign in </h1>
+            <span class="header-sub-heading">Using your beautgenics account</span>
+            <div class="input-fields-wrapper">
+                <input type="text" placeholder="Email address/Phone" class="input-field" />
+                <input type="password" placeholder="Enter your password" class="input-field"/>
+                <p class="forget-text">Forgot password?</p>
+            </div>
+        </div>
+        <div class="checkbox-wrapper">
+            <input type="checkbox" id="checkBox" />
+            <label for="checkBox" class="label-checkbox" >Remember my login info</label> 
+        </div>
+        <div class="bottom">
+            <button onclick="handleSignInBtn()" class="sign-in-btn">Sign in</button>
+            <span class="sub-heading">Don't have an account? <span class="highlighter">Sign up</span> </span>
+        </div>
+    </div>
+    <script src="/script/login.js"></script>
+</body>
+
+</html>

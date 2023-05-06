@@ -1,0 +1,82 @@
+/* removing default page margins,padding */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width:500px) {
+.container{
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    padding-left: 1rem;
+}
+.header{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+.fa-custom{
+    margin-top:1rem;
+}
+.header-logo{
+    margin-top: 1rem;
+    height: 5rem;
+    width: 4rem;
+}
+.header-heading{
+    padding: 0px;
+    margin-top: 1rem;
+}
+.header-sub-heading{
+    font-size: 0.8rem;
+    color: #524e4e;
+    margin-top: 1rem;
+}
+.input-field{
+    height: 3rem;
+    width: 20rem;
+    border: 0.01rem solid rgba(128, 128, 128, 0.553);
+    border-radius: 4px;
+    background-color: whitesmoke;
+    padding-left: 0.6rem;
+}
+.input-fields-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.forget-text{
+    float: right !important;
+    font-size: 0.8rem;
+    color: #C83B53;
+}
+.checkbox-wrapper{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+.sign-in-btn{
+    width: 20.6rem;
+    height: 3rem;
+    border: 0.01rem solid rgba(128, 128, 128, 0.553);
+    border-radius:4px;
+    background-color: #C83B53;
+    color: white;
+}
+.highlighter{
+    color: #C83B53;
+}
+.sub-heading{
+    font-size: 0.8rem;
+    margin-left: 4rem;
+}
+}

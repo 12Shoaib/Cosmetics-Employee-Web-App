@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width:550px){
+    .container{
+        height: 100vh;
+        width: 100vw;
+        background-color: whitesmoke;
+    }
+    .navbar{
+        padding-left: 1rem;
+        height: 3rem;
+        background-color: #C83B53;
+        display: flex;
+        align-items: center;
+    }
+    .fa-custom{
+        border-right: 0.01rem solid white;
+        padding-right: 0.5rem;
+        color: white;
+        font-size: 1.1rem;
+    }
+    .fa-location-custom{
+        color: white;
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .location-details{
+        margin-left: 0.5rem;
+        font-size: 0.7rem;
+        color: white;
+    }
+    .fa-bell-custom{
+        color: white;
+        margin-left: 2rem;
+        font-size: 0.8rem;
+    }
+    .user-detail-card{
+        color: black;
+        background-color: whitesmoke;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 0.2rem solid rgba(128, 128, 128, 0.406);
+        margin-bottom: 1rem;
+    }
+    .user-name{
+        font-size: 0.9rem;
+        color: gray;
+    }
+    .user-position{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .input-range{
+        width: 13rem;
+        height: 0.3rem;
+        background-color: white;
+        -webkit-appearance: none;
+    }
+    .input-range::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        appearance: none;
+        height: 0.2rem;
+        width: 10rem;
+        background-color: #C83B53;
+    }
+    .label-slider{
+        font-size: 0.7rem;
+        color: gray;
+    }
+    .user-detail{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .services-card-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2.5rem;
+        padding-left: 1rem;
+        padding-right: 0.4rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .icon-wrapper{
+        background-color: #C83B53;
+        color: white;
+        padding: 1.2rem;
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-heading{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 1rem;
+        padding-right: 2rem;
+    }
+    .highlighter{
+        color: #C83B53;
+    }
+    .card-heading{
+        font-size: 0.8rem;
+    }
+    .services-card{
+        border-bottom: 0.2rem solid rgba(128, 128, 128, 0.406);
+    }
+}
