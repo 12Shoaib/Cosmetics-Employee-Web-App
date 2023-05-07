@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetics LeaderBoard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="/styles/leaderboard.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <i class="fa-sharp fa-solid fa-bars fa-custom" ></i>
+            <div class="icon-wrapper">
+                <span class="navbar-heading">LeaderBoard</span>
+                <i class="fa-solid fa-bell fa-bell-custom"></i>
+            </div>
+        </nav>
+
+        <div class="user-details">
+            <div class="rank">Rank<span class="highlighter"> #5</span></div>
+            <img src="/assests/userIcon.png" alt="user-icon" class="user-icon" />
+            <span class="user-heading">Sarika Seghal</span>
+            <span class="user-sub-heading">Senior beauty analyst</span>
+            <div class="content">
+                <div class="section-common section">
+                    <img  class="logo" src="/assests/contactnumber.svg" alt="logo" />
+                    <span class="sub-heading">52.25%</span>
+                    <span class="sub-content">% of contact numbers collected</span>
+                </div>
+                <div class="section-common section">
+                    <img  class="logo" src="/assests/contactnumber.svg" alt="logo" />
+                    <span class="sub-heading">17,185</span>
+                    <span class="sub-content">contact numbers collected</span>
+                </div>
+                <div class="section-three section">
+                    <img class="logo"  src="/assests/cutomersLogo.svg" alt="logo" />
+                    <span class="sub-heading">25,000</span>
+                    <span class="sub-content">Customers attended</span>
+                </div>
+            </div>    
+        </div>
+    <div class="achievement-card">
+        <div class="header">
+            <span class="header-headline">Your achievement</span>
+            <span class="header-sub-heading"> + Compare</span>
+        </div>
+        <div class="mid-section">
+            <div class="mid-header">
+                <span class="common-heading highlighter">%</span>
+                <span class="common-heading">85</span>
+                <i class="fa-sharp fa-solid fa-caret-down fa-down-custom">15.65%</i>
+                <span class="mid-sub-heading">Compared to Sureka Angel(#1)</span>
+        </div>
+        <div class="chart-wrapper">
+            <canvas id="my-chart"></canvas>
+        </div>
+
+        </div>
+
+    </div>    
+        
+
+
+
+    </div>
+    <script src="/script/leaderboard.js"></script>
+</body>
+</html>
