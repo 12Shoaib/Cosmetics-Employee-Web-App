@@ -46,3 +46,4 @@ var myChart = new Chart(chart,
         }
       }
     )
+

@@ -116,6 +116,7 @@
     .common-heading{
         font-size: 1.2rem;
         font-weight: 600;
+        padding-right: 0.2rem;
     }
     .highlighter{
         color: #C83B53;
@@ -136,5 +137,50 @@
     }
     .chart-wrapper{
         padding-top: 0.5rem;
+        padding-bottom: 1rem;
     }
+    .navbar-second{
+        height: 2rem;
+        background-color: #c83b524c;
+        display: flex;
+        gap: 1rem;
+        line-height: 2rem;
+        padding-left: 1rem;
+        font-size: 0.9rem;
+    }
+    .heading{
+        color: #C83B53;
+        border-bottom: 0.2rem solid #C83B53;
+        border-radius: 2px;
+        padding-bottom: 0.5rem;
+    }
+    .user-photo{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+    }
+    .user-card{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.6rem 1rem 0.6rem 1rem;
+        border-bottom: 0.01rem solid gray;
+    }
+    .user-name{
+        font-size: 1rem;
+        font-weight: 600;
+        display: block;
+        padding-bottom: 0.1rem;
+    }
+    .user-designation{
+        color: gray;
+        font-size: 0.8rem;
+        display: block;
+        padding-bottom: 0.1rem;
+    }
+    .user-achievement{
+        font-size: 0.9rem;
+        color: black;
+    }
+
 }
