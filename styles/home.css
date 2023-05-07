@@ -278,7 +278,7 @@
         width: 19rem;
         height: 100%;
         top: 0rem;
-        /* display: none; */
+        display: none;
     }
     .menu-name{
         font-size: 1.2rem;
