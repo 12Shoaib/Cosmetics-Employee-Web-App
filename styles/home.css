@@ -39,13 +39,13 @@
     }
     .user-detail-card{
         color: black;
-        background-color: whitesmoke;
+        background-color: white;
         padding: 1rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
         border-bottom: 0.2rem solid rgba(128, 128, 128, 0.406);
-        margin-bottom: 1rem;
+        padding-bottom: 1rem;
     }
     .user-name{
         font-size: 0.9rem;
@@ -112,5 +112,151 @@
     }
     .services-card{
         border-bottom: 0.2rem solid rgba(128, 128, 128, 0.406);
+        background-color: white;
+        padding-top: 1rem;
+    }
+    .safety-card{
+        background-color: white;
+        display: flex;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 0.2rem solid rgba(128, 128, 128, 0.406);
+    }
+    .safety-heading{
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        display: block;
+    }
+    .heading-bold{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .section-two{
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+    .safety-sub-heading{
+        font-size: 0.8rem;
+        color: gray;
+    }
+    .safety-btn{
+        height: 1.6rem;
+        width: 8rem;
+        background-color: #C83B53;
+        color: white;
+        border: 0.01rem solid rgba(128, 128, 128, 0.553);
+    }
+    .drop-down{
+        border: 0rem solid black;
+        outline: none;
+        width: 5rem;
+        background-color: white;
+    }
+    .drop-down-container{
+        background-color: white;
+        border: 0.01rem solid rgba(128, 128, 128, 0.553);
+        width: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1.5rem;
+        border-radius: 1rem;
+    }
+    .blog-card-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left:1rem;
+        margin-right: 1rem;
+        padding-top: 1rem;
+    }
+    .blog-card{
+        background-color: white;
+    }
+    .blog-card-heading{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .blog-sub-heading{
+        color: gray;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 0.6rem;
+        font-size: 0.7rem;
+    }
+    .blog-inner-card{
+        width: 20rem;
+        margin: 0.5rem 1rem 1rem 1rem;
+        background-color: whitesmoke;
+    }
+    .inner-card-image{
+        height:8rem;
+        width: 20rem;
+    }
+    .inner-card-heading{
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0.5rem 1rem 0.5rem 1rem;
+        display: block;
+    }
+    .inner-card-sub-heading{
+        color: #C83B53;
+        margin: 0rem 1rem 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+    .fa-heart-custom{
+        color:gray;
+        float: right;
+        margin-right: 1rem;
+    }
+    .fa-ellipse-custom{
+        color: gray;
+        float: right;
+        margin-right: 1rem;
+    }
+    .wrapper{
+        margin: 0.5rem 0rem 0.5rem 1rem;
+        font-size: 0.8rem;
+        color: gray;
+    }
+    .fa-star-custom{
+        color: #FFC107;
+        font-size: 0.8rem;
+    }
+    .fa-str-custom{
+        border-right: 0.01rem solid gray;
+        padding-right: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .fa-star-custom1{
+        font-size: 0.8rem;
+        margin-left: 1rem;
+        color: #FFC107;
+    }
+    .ratings{
+        margin-left: 1rem;
+    }
+    .fa-hrt-custom{
+        font-size: 0.8rem;
+        color: #C83B53;
+        padding-right: 0.5rem;
+        border-right: 0.01rem solid gray;
+    }
+    .like{
+        font-size: 0.8rem;
+        color: black;
+        font-weight: 400;
+    }
+    .fa-msg-custom{
+        color: black;
+        font-size: 0.8rem;
+    }
+    .blog-inner-card-wrap{
+        display: flex;
+        overflow: scroll;
     }
 }
