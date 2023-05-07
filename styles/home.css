@@ -3,7 +3,7 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-@media (max-width:550px){
+@media (max-width:550px){ 
     .container{
         height: 100vh;
         width: 100vw;
@@ -80,9 +80,9 @@
     .services-card-wrapper{
         display: flex;
         flex-wrap: wrap;
-        gap: 2.5rem;
+        gap: 2rem;
         padding-left: 1rem;
-        padding-right: 0.4rem;
+        padding-right: 0.5rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
@@ -96,6 +96,19 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .ser-card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-name{
+        padding-top: 0.5rem;
+        font-size: 0.6rem;
+        color: gray;
+        font-weight: 400;
+        display: inline;
     }
     .card-heading{
         display: flex;
@@ -259,4 +272,73 @@
         display: flex;
         overflow: scroll;
     }
+    .hamburger-menu-container{
+        position: absolute;
+        background-color: white;
+        width: 19rem;
+        height: 100%;
+        top: 0rem;
+        /* display: none; */
+    }
+    .menu-name{
+        font-size: 1.2rem;
+        font-weight: 600;
+        display: block;
+        padding-top: 0.6rem;
+    }
+    .menu-designation{
+        font-size: 0.9rem;
+        color: gray;
+        padding-bottom: 0.6rem;
+    }
+    .menu-header{
+        display: flex;
+        flex-direction:column;
+        align-items: flex-start;
+        padding-left: 0.7rem;
+        padding-top: 2rem;
+    }
+    .location-wrap{
+        font-size: 0.8rem;
+        color: black;
+        border-top: 0.01rem solid #C83B53;
+        border-bottom: 0.01rem solid #C83B53;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+        margin-bottom: 0.5rem;
+    }
+    .fa-menu-custom{
+        color: #C83B53;
+    }
+    .fa-close-custom{
+        color: black;
+        float: right;
+        padding-right: 1rem;
+        padding-top: 0.5rem;
+    }
+    .menu-heading{
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: gray;
+        margin:0.6rem 0rem 0.6rem 0rem;
+    }
+    .menu-card{
+        display: flex;
+        gap: 0.7rem;
+        height: 2rem;
+        padding: 0.6rem 0 0.6rem 0rem;      
+    }
+    .menu-card-wrapper{
+        border-bottom: 0.01rem solid #C83B53;
+        display: block;
+        width: 17rem;
+        margin-bottom: 0.5rem;
+    }
+    .menu-bottom-sub-heading{
+        display: block;
+        font-size: 0.8rem;
+        color: #C83B53;
+        padding-bottom: 0.5rem;
+    }
+
 }

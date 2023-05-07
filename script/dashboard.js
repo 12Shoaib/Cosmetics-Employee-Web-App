@@ -1,7 +1,7 @@
 const chart = document.getElementById('my-chart');
 
 var myChart = new Chart( chart , 
-    {
+    { 
         type: 'line',
         data: {
           labels: ['week1','week2','week3','week4','week5'],

@@ -1,43 +1,50 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-@media (max-width:500px){
-    .container{
+
+@media (max-width:500px) {
+    .container {
         height: 100vh;
         width: 100vw;
         background-color: white;
     }
-    .navbar{
+
+    .navbar {
         padding-left: 1rem;
         height: 3rem;
         background-color: #C83B53;
         display: flex;
         align-items: center;
     }
-    .fa-custom{
+
+    .fa-custom {
         border-right: 0.01rem solid white;
         padding-right: 0.5rem;
         color: white;
         font-size: 1.1rem;
     }
-    .navbar-heading{
+
+    .navbar-heading {
         padding-left: 0.5rem;
         font-size: 0.7rem;
         color: white;
     }
-    .fa-bell-custom{
+
+    .fa-bell-custom {
         color: white;
         font-size: 0.8rem;
     }
-    .icon-wrapper{
+
+    .icon-wrapper {
         display: flex;
         width: 100%;
         justify-content: space-between;
         padding-right: 1rem;
     }
-    .user-details{
+
+    .user-details {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -46,100 +53,121 @@
         border-bottom: 0.2rem solid rgba(128, 128, 128, 0.406);
         background-color: white;
     }
-    .user-heading{
+
+    .user-heading {
         font-size: 1.2rem;
         font-weight: 600;
         margin-top: 0.5rem;
     }
-    .user-sub-heading{
+
+    .user-sub-heading {
         color: gray;
         font-size: 0.9rem;
         font-weight: 400;
     }
-    .user-icon{
+
+    .user-icon {
         height: 4rem;
         width: 4rem;
     }
-    .rank{
+
+    .rank {
         font-size: 0.8rem;
         font-weight: 400;
         color: black;
     }
-    .highlighter{
+
+    .highlighter {
         color: #C83B53;
     }
-    .sub-heading{
+
+    .sub-heading {
         color: #C83B53;
         font-weight: 500;
     }
-    .section{
+
+    .section {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         margin-top: 0.8rem;
     }
-    .section-common{
+
+    .section-common {
         border-right: 0.01rem solid gray;
     }
-    .content{
+
+    .content {
         display: flex;
         gap: 0.8rem;
         padding-left: 1rem;
         padding-right: 1rem;
         width: 100%;
     }
-    .sub-content{
+
+    .sub-content {
         color: gray;
         font-size: 0.6rem;
         width: 7rem;
     }
-    .logo{
+
+    .logo {
         padding-left: 1rem;
     }
-    .header{
+
+    .header {
         display: flex;
         justify-content: space-between;
         padding-left: 1rem;
         padding-right: 1rem;
         padding-top: 0.5rem;
     }
-    .header-headline{
+
+    .header-headline {
         color: rgba(128, 128, 128, 0.763);
-        font-weight: 500;    
+        font-weight: 500;
     }
-    .header-sub-heading{
+
+    .header-sub-heading {
         color: #C83B53;
         text-transform: uppercase;
         font-size: 0.8rem;
         font-weight: 500;
     }
-    .common-heading{
+
+    .common-heading {
         font-size: 1.2rem;
         font-weight: 600;
         padding-right: 0.2rem;
     }
-    .highlighter{
+
+    .highlighter {
         color: #C83B53;
     }
-    .fa-down-custom{
+
+    .fa-down-custom {
         color: #C83B53;
         font-size: 0.6rem;
     }
-    .mid-header{
+
+    .mid-header {
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    .mid-sub-heading{
+
+    .mid-sub-heading {
         color: gray;
         font-weight: 400;
         display: block;
         font-size: 0.7rem;
     }
-    .chart-wrapper{
+
+    .chart-wrapper {
         padding-top: 0.5rem;
         padding-bottom: 1rem;
     }
-    .navbar-second{
+
+    .navbar-second {
         height: 2rem;
         background-color: #c83b524c;
         display: flex;
@@ -148,37 +176,43 @@
         padding-left: 1rem;
         font-size: 0.9rem;
     }
-    .heading{
+
+    .heading {
         color: #C83B53;
         border-bottom: 0.2rem solid #C83B53;
         border-radius: 2px;
         padding-bottom: 0.5rem;
     }
-    .user-photo{
+
+    .user-photo {
         height: 3rem;
         width: 3rem;
         border-radius: 50%;
     }
-    .user-card{
+
+    .user-card {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 0.6rem 1rem 0.6rem 1rem;
         border-bottom: 0.01rem solid gray;
     }
-    .user-name{
+
+    .user-name {
         font-size: 1rem;
         font-weight: 600;
         display: block;
         padding-bottom: 0.1rem;
     }
-    .user-designation{
+
+    .user-designation {
         color: gray;
         font-size: 0.8rem;
         display: block;
         padding-bottom: 0.1rem;
     }
-    .user-achievement{
+
+    .user-achievement {
         font-size: 0.9rem;
         color: black;
     }

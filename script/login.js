@@ -6,3 +6,20 @@ button.addEventListener('click',function(){
 const handleSignInBtn = () => {
     window.location.href = '/home.html'
 }
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
