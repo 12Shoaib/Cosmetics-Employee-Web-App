@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetics Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="/styles/dashboard.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <i class="fa-sharp fa-solid fa-bars fa-custom" ></i>
+            <div class="icon-wrapper">
+                <span class="navbar-heading">Dashboard</span>
+                <i class="fa-solid fa-bell fa-bell-custom"></i>
+            </div>
+        </nav>
+        <div class="user-details">
+            <img src="/assests/userIcon.png" alt="user-icon" class="user-icon" />
+            <span class="user-heading">Sarika Seghal</span>
+            <span class="user-sub-heading">Senior beauty analyst</span>
+        </div>
+        <div class="chart-wrapper">
+            <span class="chart-heading">Current sales</span>
+            <span class="sub-heading-highlighter">$<span class="sub-heading"> 87,185</span></span>
+            <i class="fa-solid fa-caret-up fa-caret-custom"></i> 
+            <span class="sales"> 15.65%</span>
+            <span class="chart-text">Compared to $45,145 from Sep,2020</span>
+
+            <div class="my-chart-container">
+            <canvas id="my-chart"></canvas>
+            </div>
+        </div>
+        <div class="contacts-card">
+            <div class="image-wrapper">
+                <img class="image1" src="/assests/namesCollection.svg" alt="cotacts-img"/>
+                <img class="image2" src="/assests/layer2.svg" alt="cotacts-img"/>
+                <img class="image3" src="/assests/layer3.svg" alt="cotacts-img"/>
+            </div>
+            <div class="content-info">
+                <span class="content-heading">Contact collection</span>
+                <span class="sales-count">17,185</span>
+                <span class="content-sub-heading">Compared to 15,145 last month</span>
+            </div>
+            <div class="bottom-content">
+                
+            </div>
+        </div>
+
+
+    </div>
+    <script src="/script/dashboard.js"></script>
+
+</body>
+</html>

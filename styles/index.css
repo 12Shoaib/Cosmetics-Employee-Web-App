@@ -8,7 +8,7 @@
 .splash-screen{
     height: 100vh;
     width: 100vw;
-    background-color: #e3adb5;
+    background-color: #c83b52d5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,15 +68,19 @@
     color: rgb(161, 152, 152);
 }
 .link-wrapper{
-    color: #fd95a6;
+    color: #C83B53;
     text-decoration: none;
     margin-left: 2.5rem;
+}
+.link-wrapper:active{
+    text-decoration: none;
+    color: black;
 }
 .link-text{
     color: black;
 }
 .text-highliter{
-    color: #fd95a6;
+    color: #C83B53;
 }
 .btn-heading{
     color: #726b6b;
